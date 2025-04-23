@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.png";
 import arrow_icon from "../../assets/arrow_icon.png";
+import { CoinContext } from "../../context/CoinContext";
 
 const Navbar = () => {
+  const { setCurrency } = useContext(CoinContext);
+
   return (
     <div className="navbar">
       <img src={logo} alt="" className="logo" />
