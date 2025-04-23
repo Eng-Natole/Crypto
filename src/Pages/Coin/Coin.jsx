@@ -1,6 +1,11 @@
 import React from "react";
-import "./Coin.css";
 
-export const Coin = () => {
-  return <div>Coin</div>;
+const Coin = () => {
+  return (
+    <div>
+      <h2>Home</h2>
+    </div>
+  );
 };
+
+export default Coin;
