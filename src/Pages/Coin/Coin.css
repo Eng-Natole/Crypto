@@ -1,18 +1,24 @@
 .spinner {
   display: grid;
-  place-self: center;
+  place-items: center;
   min-height: 80vh;
 }
+
 .spin {
   width: 65px;
   height: 65px;
-  place-self: center;
-  border: 5px solid #bdbdbd;
-  border-top-color: #4500c6;
+  border: 6px solid transparent;
+  border-top: 6px solid #6a00f4;
+  border-right: 6px solid #00d4ff;
   border-radius: 50%;
-  animation: rotate 2s infinite;
+  animation: spinRotate 0.8s linear infinite;
+  box-shadow: 0 0 10px rgba(106, 0, 244, 0.3);
 }
-@keyframes rotate {
+
+@keyframes spinRotate {
+  0% {
+    transform: rotate(0deg);
+  }
   100% {
     transform: rotate(360deg);
   }
