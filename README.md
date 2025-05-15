@@ -1,18 +1,20 @@
 
 
-Crypto Search App
+Crypto App
 
-A fast and simple cryptocurrency search application built with Vite, React, and plain CSS. This app allows users to search for real-time cryptocurrency data with an intuitive and clean user interface.
+A fast and interactive cryptocurrency explorer built with React, Vite, and pure CSS. Easily search, filter, and explore real-time data, rankings, and price graphs of top cryptocurrencies.
 
 Features
 
-Live Crypto Search: Instantly search thousands of cryptocurrencies by name or symbol.
+Search & Filter: Instantly find cryptocurrencies by name or symbol.
 
-Real-Time Data: View live prices, market cap, and other key details.
+Live Data: View real-time price, market cap, volume, and more.
 
-Clean Design: Styled with custom CSS for a minimal and responsive layout.
+Ranking System: See each coin's rank based on market cap.
 
-Fast Performance: Powered by Vite for ultra-fast loading and development.
+Price Graph: Visualize recent price changes using dynamic charts.
+
+Responsive UI: Works smoothly across mobile and desktop.
 
 
 Tech Stack
@@ -21,14 +23,16 @@ Frontend: React + Vite
 
 Styling: Plain CSS
 
-API: CoinGecko API (or any other used crypto API)
+Charts: Chart.js or Recharts (depending on what you use)
+
+API: CoinGecko API or your preferred source
 
 
 Getting Started
 
 Prerequisites
 
-Node.js (v14 or higher)
+Node.js (v14+)
 
 npm or yarn
 
@@ -39,29 +43,38 @@ git clone https://github.com/your-username/crypto-search-app.git
 cd crypto-search-app
 npm install
 
-Run Locally
+Run the App
 
 npm run dev
 
-Your app will be live at: http://localhost:5173
-
+Open in browser: http://localhost:5173
 
 Usage
 
-Open the app in your browser.
+1. Search: Start typing a crypto name like “Bitcoin” or symbol like “ETH”.
 
-Use the search input to find cryptocurrencies by name or ticker.
 
-View key info such as price, volume, and market cap.
+2. Filter: Narrow results by market cap, price, or rank (optional feature).
+
+
+3. View Rank: Each card or row shows the coin’s rank.
+
+
+4. See Chart: Click on a coin to view its 7-day price trend (via graph).
+
+
+5. Stay Updated: All data is refreshed live from the API.
+
 
 
 Screenshots
 
-Add screenshots if you have them.
+Add screenshots here showing the search bar, list, rank, and graph.
 
 Contributing
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+Contributions, issues, and feature requests are welcome!
+Feel free to fork the repo and submit a pull request.
 
 License
 
