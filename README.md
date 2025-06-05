@@ -94,5 +94,4 @@ Let me know if you want:
 - `.env` instructions for managing API keys if needed
 - A contributors section or credits
 
-I can customize the README even further based on your needs.
 
