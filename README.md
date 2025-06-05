@@ -1,4 +1,3 @@
-Here’s a complete version of your updated README.md in Markdown format, ready to copy into your project:
 
 # 🚀 Crypto Explorer App
 
